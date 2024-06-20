@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calendar</title>
+    <link rel="stylesheet" href="styles/style2.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <div class="calendar">
+
+        <div class="header">
+
+            <button id="prevBtn">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+
+            <div class="monthYear" id="monthYear"></div>
+
+            <button id="nextBtn">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+
+        </div>
+
+        <div class="days">
+            <div class="day">Sun</div>
+            <div class="day">Mon</div>
+            <div class="day">Tue</div>
+            <div class="day">Wed</div>
+            <div class="day">Thu</div>
+            <div class="day">Fri</div>
+            <div class="day">Sat</div>
+            
+        </div>
+
+        <div class="dates" id="dates"></div>
+
+    </div>
+   <script src="cal.js"></script> 
+</body>
+</html>
